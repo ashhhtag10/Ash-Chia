@@ -1189,12 +1189,7 @@
             }
         });
 
-        async function loadHeroImage() {
-            const heroData = await storage.get('hero_image');
-            if (heroData) {
-                document.getElementById('heroImage').src = heroData.value;
-            }
-        }
+        
 
         // Photo Gallery
         let showAllPhotos = false;
